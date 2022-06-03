@@ -81,7 +81,7 @@ def mjcf_joint_to_sdf(joint, parent_name, child_name, default_classes=None):
     if joint.limited is not None:
         if joint.limited == "true":
             if joint.range is not None:
-                if joint.root.compiler.angle == "degree":
+                if joint.root.compiler.angle == "degree" or joint.root.compiler.angle is None:
                     joint_axis_sdf.set_lower(math.radians(joint.range[0]))
                     joint_axis_sdf.set_upper(math.radians(joint.range[1]))
                 else:
