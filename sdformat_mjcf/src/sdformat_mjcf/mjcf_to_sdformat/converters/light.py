@@ -18,7 +18,7 @@ import math
 
 import sdformat_mjcf.utils.sdf_utils as su
 
-import sdformat13 as sdf
+import sdformat as sdf
 
 LIGHT_NUMBER = 0
 

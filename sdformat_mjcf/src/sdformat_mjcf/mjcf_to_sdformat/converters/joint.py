@@ -15,7 +15,7 @@
 from gz.math7 import Vector3d
 import logging
 import math
-import sdformat13 as sdf
+import sdformat as sdf
 import sdformat_mjcf.utils.sdf_utils as su
 
 

@@ -14,7 +14,7 @@
 
 import unittest
 
-import sdformat13 as sdf
+import sdformat as sdf
 from gz.math7 import Pose3d, Vector3d
 
 from tests import helpers

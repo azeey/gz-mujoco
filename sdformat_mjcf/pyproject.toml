@@ -1,5 +1,18 @@
+[project]
+name = "sdformat-mjcf"
+version = "0.1.0"
+dependencies = ["mujoco"]
+
 [build-system]
 # These are the assumed default build requirements from pip:
 # https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
 requires = ["setuptools>=43.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
+
+[project.scripts]
+sdf2mjcf = "sdformat_mjcf.sdformat_to_mjcf.cli:main"
+mjcf2sdf = "sdformat_mjcf.mjcf_to_sdformat.cli:main"

@@ -17,7 +17,7 @@
 import os
 from gz.math7 import Vector2d, Vector3d
 
-import sdformat13 as sdf
+import sdformat as sdf
 import sdformat_mjcf.utils.sdf_utils as su
 
 VISUAL_NUMBER = 0

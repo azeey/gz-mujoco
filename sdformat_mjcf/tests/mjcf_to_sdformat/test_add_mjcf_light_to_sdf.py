@@ -18,7 +18,7 @@ from dm_control import mjcf
 
 from gz.math7 import Color, Vector3d
 
-import sdformat13 as sdf
+import sdformat as sdf
 
 from sdformat_mjcf.mjcf_to_sdformat.converters import light as light_conv
 

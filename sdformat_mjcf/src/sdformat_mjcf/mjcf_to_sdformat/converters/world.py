@@ -24,7 +24,7 @@ from sdformat_mjcf.mjcf_to_sdformat.converters.sensor import (
 import sdformat_mjcf.utils.sdf_utils as su
 from sdformat_mjcf.utils.defaults import MjcfModifiers
 
-import sdformat13 as sdf
+import sdformat as sdf
 
 MJCF_DEFAULT_GRAVITY = [0, 0, -9.81]
 MJCF_DEFAULT_MAGNETIC = [0, -0.5, 0]

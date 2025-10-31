@@ -24,7 +24,7 @@ from sdformat_mjcf.mjcf_to_sdformat.converters.world import (
     mjcf_worldbody_to_sdf,
 )
 
-import sdformat13 as sdf
+import sdformat as sdf
 
 
 from tests.helpers import get_resources_dir

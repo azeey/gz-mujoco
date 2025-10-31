@@ -17,7 +17,7 @@ import tempfile
 import unittest
 from math import pi
 
-import sdformat13 as sdf
+import sdformat as sdf
 from gz.math7 import Vector3d
 
 from sdformat_mjcf.mjcf_to_sdformat.mjcf_to_sdformat import (

@@ -16,7 +16,7 @@ import unittest
 from numpy.testing import assert_allclose
 from math import pi, sqrt
 
-import sdformat13 as sdf
+import sdformat as sdf
 from gz.math7 import Color, Inertiald, Pose3d, MassMatrix3d, Vector3d
 from dm_control import mjcf
 
